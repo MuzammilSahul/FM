@@ -66,6 +66,35 @@ MODEL GRAPH:
 
 Program
 
+am=7.8;
+
+fm=278;
+
+ac=15.6;
+
+fc=2780;
+
+fs=27800;
+
+t=0:1/fs:2/fm;
+
+em=am*cos(2*3.14*fm*t);
+
+subplot(3,1,1);
+
+plot(t,em);
+
+ec=ac*cos(2*3.14*fc*t);
+
+subplot(3,1,2);
+
+plot(t,ec);
+
+efm=ac*cos((2*3.14*fc*t)+(2.9*sin(2*3.14*fm*t)));
+
+subplot(3,1,3);
+
+plot(t,efm);
 
 Output Waveform
 
