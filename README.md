@@ -65,6 +65,7 @@ MODEL GRAPH:
 
 
 Program
+![Uploading image.png…]()
 
 
 Output Waveform
